@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 15px;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav.menu-interno {
+    background-color: #0066cc;
+    padding: 10px;
+  }
+  
+  /* Corpo */
+  main {
+    padding: 20px;
+  }
+  
+  .disciplina {
+    margin-bottom: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .secao {
+    margin: 15px 0;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+  }
+  
